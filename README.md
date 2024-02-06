@@ -10,7 +10,7 @@
 * Docker Compose
 * Dbeaver
 
-# Create Docker
+## Create Docker
 
 
 ## Dataset
@@ -35,7 +35,7 @@ and run `pip install -r requirements.txt`
 
 ___
 
-## Configuration
+# Configuration
 
 ## Ingestion  
 
@@ -50,17 +50,17 @@ ___
 
 
 
-Data Modelling:
+## Data Modelling:
 
-# 1. Birth and Date Trends
+### 1. Birth and Date Trends
 
-# 2. Analysis of Infant Mortality
+### 2. Analysis of Infant Mortality
 
-# 3. Analysis of Maternal and Infant Health
+### 3. Analysis of Maternal and Infant Health
 
-# 4. Marriage and Birth Analysis
+### 4. Marriage and Birth Analysis
 
-# 5. Analisis Gender Ratio
+### 5. Analisis Gender Ratio
 
 
 
