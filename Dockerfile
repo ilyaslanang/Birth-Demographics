@@ -43,3 +43,15 @@ WORKDIR /usr/app
 ##
 FROM base as dbt-postgres
 RUN python -m pip install dbt-postgres
+
+##
+# Mage
+#
+
+FROM mageai/mageai:latest
+
+ARG USER_CODE_PATH=/workspaces/Birth-Demographics/project
+
+COPY requirements.txt ${USER_CODE_PATH}/requirements.txt 
+
+RUN pip3 install -r ${USER_CODE_PATH}/requirements.txt
